@@ -1,3 +1,4 @@
+
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -37,7 +38,7 @@
                 </button>
               </div>
               <!-- app-active = pestaña actual -->
-              <div class="collapse navbar-collapse" id="js-navbar-collapse">
+              <div class="collapse navbar-collapse app-centrar " id="js-navbar-collapse">
                 <ul class="nav navbar-nav  app-nav">
                   <li><a href="index.html" class=" app-centrar">Inicio</a></li>
 
@@ -45,11 +46,11 @@
 
                   <li><a href="planes.html" class="app-centrar" >Planes</a></li>
 
-                  <li class="app-navbar"><a href="contacto.html" class="app-centrar app-active" >Cont&aacute;ctenos</a></li>
+                  <li class="app-navbar"><a href="contacto.html" class="app-centrar " >Cont&aacute;ctenos</a></li>
 
                   <li><a href="mapaComeat.html" class="app-centrar">Mapa</a></li>
 
-                  <li><a href="php/sesion-cuenta.php"class="app-centrar">Social-Comeat</a></li>
+                  <li><a href="php/sesion-cuenta.php" class="app-centrar app-active">Social-Comeat</a></li>
                 </ul>
               </div>
             </div>
@@ -57,106 +58,121 @@
             </header>
             
         <!--  FIN HEADER MENU -->
-        <!-- INICIO CONTENEDEOR EDITABLE -->
-
         
-        <!-- INICIO SALUDO CONTACTO -->
+        <!-- INICIO SALUDO LOGIN -->
         <div class="fondo">
             <div class="container app-contenedor">
               <div class="row">
                 <div class="col-xs-12">
-                  <div class="jumbotron app-font-style-titulo fondo-dos">
-                    <h1>Cont&aacute;ctanos.</h1>
-                    <div class="clearfix"></div>
-                  </div>
+
+                    <div class="jumbotron app-font-style-titulo fondo-dos">
+                      <h1>Iniciar sesi&oacute;n.</h1>
+                      <div class="clearfix"></div>
+                      <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
+                    </div>
                 </div>
               </div>
             </div>
         </div>
-        <!-- FIN SALUDO CONTACTO -->
+        <!-- FIN SALUDO LOGIN -->
         
-        <!-- INICIO FORMULARIO CONTACTO -->
-        
+        <!-- INICIO LOGIN -->
         <div class="container-slide fondo">
-          <!-- INICIO CONTAINER Contacto -->
-          <div class="container app-contenedor-dos">
-            <div class="panel-header header">
-              <p>
-                <h2 class="app-font-style-titulo"></span> Por favor complete el siguiente formulario.</h2>
-              </p>
-            </div>
-            <div class="panel-body fondo-dos">
-        
+        <!-- INICIO CONTAINER  -->
+        <div class="container app-contenedor-dos">
+          <div class="panel-header header">
+            <h3 class="app-font-style-titulo ">Administrador de sesi&oacute;n</h3>
+          </div>
+          <div class="panel-body fondo-dos">
+            <div class="col-xs-12 col-md-6 panel panel-comeat">
+              <div class="panel-header app-font-style-titulo-dos">
+                Iniciar sesi&oacute;n
+              </div>
               <!-- Inicio de formulario -->
-              <form id="contacto" name="contacto">
-                <!-- inicio grupo 1 -->
-                <div class="col-xs-12 col-md-4 fondo-dos">
-                  <!-- Nombres -->
-                  <div class="form-group">
-                    <label for="nombres_contacto">Nombres:</label>
-                    <input type="text" minlength="2" maxlength="30" class="form-control" id="nombres_txt" name="nombres_txt" placeholder="Ingrese sus nombres" required/>
-                    
-                  </div>
-                  <!-- Apellidos -->
-                  <div class="form-group">
-                    <label for="nombres_contacto">Apellidos:</label>
-                    <input type="text" minlength="2" maxlength="30" class="form-control" id="apellidos_txt" name="apellidos_txt" placeholder="Ingrese sus apellidos" required/>
-                  
-                  </div>
-                  <!-- Razon social -->
-                  <div class="form-group" >
-                    <label for="nombres_contacto">Raz&oacute;n social:</label>
-                    <input type="text" minlength="2" maxlength="30" class="form-control" id="razon_txt" name="razon_txt" placeholder="Raz&oacute;n social" required/>
-                  
-                  </div>
-                  <!-- Email -->
-                  <div class="form-group" >
-                    <label for="email_contacto">Correo electr&oacute;nico:</label>
-                    <input type="email" required minlength="6" maxlength="50" class="form-control" id="email_txt" placeholder="ejemplo@domino.cl"  name="email_txt">
-                    
-                  </div>
-                </div>
-                <!-- inicio grupo 2 -->
-                <div class="col-xs-12 col-md-4 fondo-dos">
-                  <!-- Telefono -->
-                  <div class="form-group">
-                    <label for="telefono_contacto">Tel&eacute;fono:</label>
-                    <input type="text" minlength="6" maxlength="15" class="form-control" id="telefono_txt" name="telefono_txt" placeholder="N&uacute;mero de tel&eacute;fono" />
+              <form id="formularioLogin" name="formularioLogin">
+                <!-- Email -->
+                <div class="form-group">
+                  <label for="asunto_form">Usuario:</label>
 
-                  </div>
-                  <!-- Celular -->
-                  <div class="form-group">
-                    <label for="celular_txt">Celular:</label>
-                    <input type="text" minlength="6" maxlength="15" class="form-control" id="celular_txt" name="celular_txt" placeholder="N&uacute;mero de tel&eacute;fono" />
-                  </div>
-                  <!-- Asunto -->
-                  <div class="form-group">
-                    <label for="asunto_form">Asunto:</label>
-                    <input type="text" minlength="2" maxlength="30" class="form-control" id="asunto_txt" name="asunto_txt" placeholder="Asunto" required/>
+                  <input type="email" minlength="6" maxlength="50" class="form-control" id="usuarioCorreo" name="usuarioCorreo" placeholder="Ingrese su email" required/>
 
-                  </div>
                 </div>
-                <!-- inicio grupo 3 -->
-                <div class="col-xs-12 col-md-4 fondo-dos">
-                  <!-- MENSAJE -->
-                  <div class="form-group">
-                    <label for="mensaje_form">Mensaje:</label>
-                    <textarea class="formulario-area" placeholder="Mensaje..." maxlength="350" minlength="4" name="mensaje_txt" id="mensaje_txt" required ></textarea>
-                    
-                  </div>
-                  <input type="button" id="btnContacto" class="btn btn-warning" value="Enviar" />
+
+                <!-- Password -->
+                <div class="form-group">
+                  <label for="nombres_contacto">Contrase&ntilde;a:</label>
+                  <input type="password" minlength="4" maxlength="30" class="form-control" id="usuarioPassword" name="usuarioPassword" placeholder="Contrase&ntilde;a" required/>
+          
+                </div>
+                <div class="col-xs-12 col-xs-push-3">
+                  <input type="button" id="btnLoginUsuario" class="btn btn-warning" value="Iniciar sesi&oacute;n"/>
+                </form>
+              </div>
+            </div>
+
+
+            <!-- Inicio panel registro -->
+            <div class="col-xs-12 col-md-6 panel panel-comeat">
+              <div class="panel-header app-font-style-titulo-dos">
+                &#191;No est&aacute;s registrado?
+              </div>
+              <!-- Inicio de formulario -->
+              <form id="formularioRegistro" name="formularioRegistro">
+                <!-- Nombre -->
+                <div class="form-group">
+                  <label for="asunto_form">Nombres:</label>
+                  <input type="text" minlength="2" maxlength="30" class="form-control" id="nombresRegistro" name="nombresRegistro" placeholder="Ingrese su o sus nombres" required/>
+                  
+                </div>
+                <!-- Primer apellido -->
+                <div class="form-group">
+                  <label for="asunto_form">Primer apellido:</label>
+                  <input type="text" minlength="2" maxlength="30" class="form-control" id="primerApellidoRegistro" name="primerApellidoRegistro" placeholder="Ingrese su primer apellido (requerido)" required/>
+                  
+                </div>
+                  <!-- Segundo apellido -->
+                <div class="form-group">
+                  <label for="asunto_form">Segundo apellido:</label>
+                  <input type="text" minlength="2" maxlength="30" class="form-control" id="segundoApellidoRegistro" name="segundoApellidoRegistro" placeholder="Ingrese su segundo apellido" />
+                  
+                </div>
+                 <!-- Correo electronico -->
+                <div class="form-group">
+                  <label for="asunto_form">Email:</label>
+                  <input type="email" minlength="6" maxlength="50" class="form-control" id="emailRegistro" name="emailRegistro" placeholder="ejemplo@dominio.cl" required/>
+                  
+                </div>
+                 <!-- Contraseña -->
+                <div class="form-group">
+                  <label for="asunto_form">Contrase&ntilde;a:</label>
+                  <input type="email" minlength="6" maxlength="50" class="form-control" id="emailRegistro" name="emailRegistro" placeholder="contrase&ntilde;a" required/>
+                  
+                </div>
+                 <!-- Contraseña 2-->
+                <div class="form-group">
+                  <label for="asunto_form">Reingrese su contrase&ntilde;a:</label>
+                  <input type="email" minlength="6" maxlength="50" class="form-control" id="emailRegistro" name="emailRegistro" placeholder="Reingrese su contrase&ntilde;a" required/>
+                  
+                </div>
+
+                <div class="col-xs-12 col-xs-push-3">
+                  <input type="submit" id="btnContacto" class="btn btn-success" value="Registrarse" ng-click="enviarDatosFormulario(datos)"/>
                 </div>
               </form>
-              <!-- FIN GRUPO -->
             </div>
-            <div class="panel-footer">
-            </div>
+            <!-- FIN PANEL REGISTRO -->
+            <div class="clearfix"></div>
+            <!-- INICIO CONTAINER SESION ADMINISTRADOR -->
+
+            <!-- FIN CONTAINER SESION ADMINISTRADOR -->
+
+            <!-- FIN CONTAINER  -->
           </div>
-          <!-- FIN CONTAINER Contacto -->
-        </div>
-        <!-- FIN FORMULARIO CONTACTO -->
-    
-        <!-- FIN CONTENEDOR EDITABLE -->
+         </div> 
+
+
+        <!-- FIN LOGIN -->
+
        <!-- Inicio footer fijo -->
         <div class="navbar app-navbar navbar">
           <div class="app-footer">
@@ -189,7 +205,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <!-- JQuery -->
-        <script src="js/jquery/validarContacto.js"></script>
+        <script src="js/jquery/carouselInicio.js"></script>
       
            
 
