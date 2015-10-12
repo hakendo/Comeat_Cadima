@@ -1,46 +1,26 @@
 <?php
-  header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+  
 //Recepción de los datos
-/*
-    $Nombre = $_POST['nombre_txt']; // requerido
 
-    $Apellidos = $_POST['apellidos_txt']; // requerido
+    $Nombre = $_POST['nombres']; // requerido
 
-    $RazonSocial = $_POST['razon_txt']; // requerido
+    $Apellidos = $_POST['apellidos']; // requerido
 
-    $Correo = $_POST['email_txt']; // requerido
+    $RazonSocial = $_POST['razon']; // requerido
 
-    $Telefono = $_POST['telefono_txt']; // no requerido
+    $Correo = $_POST['email']; // requerido
 
-    $Celular = $_POST['celular_txt']; // no requerido
+    $Telefono = $_POST['telefono']; // no requerido
 
-    $Asunto = $_POST['asunto_txt'];
+    $Celular = $_POST['celular']; // no requerido
 
-    $Texto = $_POST['mensaje_txt']; // requerido
- */
+    $Asunto = $_POST['asunto'];
 
+    $Texto = $_POST['mensaje']; // requerido
+ 
 //Recepcion de datos por medio de AngularJS
    //para bd mysql $data = json_decode(file_get_contents("php://input"), true);
 
-
-   $data = json_decode(file_get_contents("php://input"));
-
-
-    $Nombre = $data->nombres;   // requerido
-
-    $Apellidos = $data->apellidos;  // requerido
-
-    $RazonSocial = $data->razon; // requerido
-
-    $Correo = $data->email;   // requerido
-
-    $Telefono = $data->telefono;   // no requerido
-
-    $Celular = $data->celular;   // no requerido
-
-    $Asunto = $data->asunto;
-
-    $Texto =  $data->mensaje;  // requerido
 
      //Fin de recepcion de datos
      $para = "moises.cadima@gmail.com";
@@ -65,7 +45,6 @@
 
     // Mail
     mail($para, $Asunto, $mensaje, $headers);
-    //echo $message pagina;
-    header("Location: ../FormEnviado.html");
+
 ?>
 

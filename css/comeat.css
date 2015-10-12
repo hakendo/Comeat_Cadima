@@ -71,7 +71,7 @@ body{
 /* Inicio href footer  */
 .app-link-facebook{
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: #3b5998;
   font-style: oblique;
   text-shadow:none;
@@ -90,7 +90,7 @@ body{
 
 .app-link-twitter{
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-style: oblique;
   text-shadow:none;
 
@@ -108,7 +108,7 @@ body{
 
 .app-link-youtube{
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: black;
   font-style: oblique;
   text-shadow:none;
