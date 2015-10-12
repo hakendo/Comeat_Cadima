@@ -1,0 +1,598 @@
+
+/* ==========================================================================
+   Hakendo - Moisés Cadima Figueroa.
+   ========================================================================== */
+body{
+  background-color: #F28000;
+  margin-top: 0px;
+  margin-bottom: 49px;
+}
+.test{
+  background-color: black;
+}
+.margenCeroTop{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.app-small{
+  color:#EDEBEB;
+
+}
+.app-color-marcador{
+  color:#FF8400;
+}
+.app-href{
+
+  color: #FF8400;
+  text-shadow:none;
+}
+.app-href:hover{
+
+  color: red;
+  text-decoration: none;
+  text-shadow:none;
+}
+.tam-carousel-principal{
+  width: 100%;
+  margin: auto;
+}
+.app-imagenes-celular{
+  margin: auto;
+  max-height: 400px;
+  max-width: 196px;
+}
+
+.app-header{
+  font-family: "Avenir", Futura, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+}
+.app-bottom{
+  font-family: "Avenir", Futura, Helvetica, sans-serif;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.app-navbar{
+  background: rgba(255,132,0,0.9);
+  border-radius: 0;
+}
+/* ICONO EMPRESA */
+.app-link{
+  color: black;
+  font-style: oblique;
+  text-shadow:none;
+
+}
+.app-link:hover{
+  color:white;
+}
+
+/* Inicio href footer  */
+.app-link-facebook{
+  text-decoration: none;
+  font-size: 1.8em;
+  color: #3b5998;
+  font-style: oblique;
+  text-shadow:none;
+
+}
+.app-link-facebook:hover{
+  text-decoration: none;
+  color:white;
+}
+.app-link-facebook:active{
+  text-decoration: none;
+  color:blue;
+}
+
+
+
+.app-link-twitter{
+  text-decoration: none;
+  font-size: 1.8em;
+  font-style: oblique;
+  text-shadow:none;
+
+}
+.app-link-twitter:hover{
+  text-decoration: none;
+  color:white;
+}
+.app-link-twitter:active{
+  text-decoration: none;
+  color:blue;
+}
+
+
+
+.app-link-youtube{
+  text-decoration: none;
+  font-size: 1.8em;
+  color: black;
+  font-style: oblique;
+  text-shadow:none;
+
+}
+.app-link-youtube:hover{
+  text-decoration: none;
+  color:white;
+}
+.app-link-youtube:active{
+  text-decoration: none;
+  color:blue;
+}
+
+/* Fin href footer  */
+
+
+.app-lista-redsocial{
+  list-style:none;
+  display: inline;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.app-lista-redsocial ul li{
+  display: inline;
+}
+
+.app-nav>li>a{
+  color: white;
+  text-shadow:none;
+}
+.app-nav>li>a:hover{
+  color:white;
+  background-color: #202020;
+}
+.app-nav>li>a:focus{
+  color:white;
+  background-color: #202020;
+}
+.app-nav>li>a:active{
+  color:white;
+  background-color: #202020;
+}
+.app-active{
+  color:red;
+  background: rgba(0,0,0,0.5);
+}
+.app-icon{
+  background: white;
+}
+.app-estilo{
+  background-color: transparent;
+}
+.app-contenedor{
+  background-color: #202020;
+  border:1px double #975000;
+  border-top: 0px;
+  border-bottom: none;
+
+}
+.app-contenedor-dos{
+  background-color: #202020;
+  border:1px double #975000;
+  border-top: none;
+  border-bottom: none;
+
+}
+.app-footer{
+  background: rgba(255,132,0,0.);
+  text-align: center;
+  border-radius: 0;
+  color: #FFF;
+}
+.app-footer-bot{
+  margin-top: 0px;
+  padding-top: 0px;
+  background: rgba(255,132,0,0.);
+  text-align: center;
+  border-radius: 0;
+  color: #FFF;
+}
+.img-thumbnail {
+  border: 1px;
+    border-color: #FF8400;
+    box-shadow: none;
+}
+.img-thumbnail-dos {
+    border-color: none;
+    box-shadow: none;
+}
+.ventana-contenido{
+  background-color:
+}
+.ventana-anexo{
+  background-color: #FFC98F;
+}
+/* PANELES INICIO  */
+
+.panel-comeat {
+  border-color: #FF8400;
+  border-style: solid;
+
+}
+.panel-comeat > .panel-heading {
+  color: #fff;
+  background-color: #FF8400;
+  border-color: #FF8400;
+
+}
+.panel-comeat > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #FF8400;
+}
+.panel-comeat > .panel-heading .badge {
+  color: #FF8400;
+  background-color: #fff;
+}
+.panel-comeat > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #FF8400;
+}
+
+/* PANELES FIN */
+
+.app-font-style-titulo{
+  color: #FF8400;
+  text-align: center;
+
+}
+.app-font-style-titulo-dos{
+  color: #313131;
+  text-align: center;
+}
+.app-font-style-texto{
+  color: #313131;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.app-font-style-texto-centro{
+  color: #313131;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.app-centrar{
+  text-align: center;
+}
+.app-marcar{
+  font-weight: bold;
+}
+
+
+
+/*! Editar promociones PLANES */
+
+.panel-pricing {
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+.panel-pricing:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.panel-pricing .panel-heading {
+  padding: 20px 10px;
+}
+.panel-pricing .panel-heading .fa {
+  margin-top: 10px;
+  font-size: 58px;
+}
+.panel-pricing .list-group-item {
+  color: #777777;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+.panel-pricing .list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.panel-pricing .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.panel-pricing .panel-body {
+  background-color: #f0f0f0;
+  font-size: 40px;
+  color: #777777;
+  padding: 20px;
+  margin: 0px;
+}
+/*!  PLAN BRONCE */
+.panel-bronce > .panel-heading {
+  color: #A1720E;
+  background-color: #FAE1AD;
+  border-color: #B79D63;
+}
+
+.btn-bronce {
+  color: #fff;
+  background-color: #D2B473;
+  border-color: #B79D63;
+}
+.btn-bronce:focus,
+.btn-bronce.focus {
+  color: #fff;
+  background-color: #87610E;
+  border-color: #87610E;
+}
+.btn-bronce:hover {
+  color: #fff;
+  background-color: #A1720E;
+  border-color: #87610E;
+}
+.btn-bronce:active,
+.btn-bronce.active,
+.open > .dropdown-toggle.btn-bronce {
+  color: #fff;
+  background-color: #A1720E;
+  border-color: #87610E;
+}
+.btn-bronce:active:hover,
+.btn-bronce.active:hover,
+.open > .dropdown-toggle.btn-bronce:hover,
+.btn-bronce:active:focus,
+.btn-bronce.active:focus,
+.open > .dropdown-toggle.btn-bronce:focus,
+.btn-bronce:active.focus,
+.btn-bronce.active.focus,
+.open > .dropdown-toggle.btn-bronce.focus {
+  color: #fff;
+  background-color: #A1720E;
+  border-color: #87610E;
+}
+.btn-bronce:active,
+.btn-bronce.active,
+.open > .dropdown-toggle.btn-bronce {
+  background-image: none;
+}
+.btn-bronce.disabled,
+.btn-bronce[disabled],
+fieldset[disabled] .btn-bronce,
+.btn-bronce.disabled:hover,
+.btn-bronce[disabled]:hover,
+fieldset[disabled] .btn-bronce:hover,
+.btn-bronce.disabled:focus,
+.btn-bronce[disabled]:focus,
+fieldset[disabled] .btn-bronce:focus,
+.btn-bronce.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-bronce.focus,
+.btn-bronce.disabled:active,
+.btn-bronce[disabled]:active,
+fieldset[disabled] .btn-bronce:active,
+.btn-bronce.disabled.active,
+.btn-bronce[disabled].active,
+fieldset[disabled] .btn-bronce.active {
+  background-color: #A1720E;
+  border-color: #87610E;
+}
+.btn-bronce .badge {
+  color: #A1720E;
+  background-color: #87610E;
+}
+
+/*  FIN PLAN BRONCE */
+
+/* PLAN PLATA */
+
+.panel-plata > .panel-heading {
+  color: #636363;
+  background-color: #F2F2F2;
+  border-color: #B6B6B6;
+}
+
+.btn-plata {
+  color: #fff;
+  background-color: #B7B7B7;
+  border-color: #959595;
+}
+.btn-plata:focus,
+.btn-plata.focus {
+  color: #fff;
+  background-color: #636363;
+  border-color: #525252;
+}
+.btn-plata:hover {
+  color: #fff;
+  background-color: #636363;
+  border-color: #525252;
+}
+.btn-plata:active,
+.btn-plata.active,
+.open > .dropdown-toggle.btn-plata {
+  color: #fff;
+  background-color: #636363;
+  border-color: #525252;
+}
+.btn-plata:active:hover,
+.btn-plata.active:hover,
+.open > .dropdown-toggle.btn-plata:hover,
+.btn-plata:active:focus,
+.btn-plata.active:focus,
+.open > .dropdown-toggle.btn-plata:focus,
+.btn-plata:active.focus,
+.btn-plata.active.focus,
+.open > .dropdown-toggle.btn-plata.focus {
+  color: #fff;
+  background-color: #636363;
+  border-color: #525252;
+}
+.btn-plata:active,
+.btn-plata.active,
+.open > .dropdown-toggle.btn-plata {
+  background-image: none;
+}
+.btn-plata.disabled,
+.btn-plata[disabled],
+fieldset[disabled] .btn-plata,
+.btn-plata.disabled:hover,
+.btn-plata[disabled]:hover,
+fieldset[disabled] .btn-plata:hover,
+.btn-plata.disabled:focus,
+.btn-plata[disabled]:focus,
+fieldset[disabled] .btn-plata:focus,
+.btn-plata.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-plata.focus,
+.btn-plata.disabled:active,
+.btn-plata[disabled]:active,
+fieldset[disabled] .btn-plata:active,
+.btn-plata.disabled.active,
+.btn-plata[disabled].active,
+fieldset[disabled] .btn-plata.active {
+  background-color: #B7B7B7;
+  border-color: #959595;
+}
+.btn-plata .badge {
+  color: #B7B7B7;
+  background-color: #959595;
+}
+/* FIN PLAN PLATA */
+/* PLAN ORO */
+
+.panel-oro > .panel-heading {
+  color: #9d872b;
+  background-color: #f0d04d;
+  border-color: #9d872b;
+}
+
+.btn-oro {
+  color: #fff;
+  background-color: #f0d04d;
+  border-color: #9d872b;
+}
+.btn-oro:focus,
+.btn-oro.focus {
+  color: #fff;
+  background-color: #f0d04d;
+  border-color: #9d872b;
+}
+.btn-oro:hover {
+  color: #fff;
+  background-color: #9d872b;
+  border-color: #9d872b;
+}
+.btn-oro:active,
+.btn-oro.active,
+.open > .dropdown-toggle.btn-oro {
+  color: #fff;
+  background-color: #f0d04d;
+  border-color: #9d872b;
+}
+.btn-oro:active:hover,
+.btn-oro.active:hover,
+.open > .dropdown-toggle.btn-oro:hover,
+.btn-oro:active:focus,
+.btn-oro.active:focus,
+.open > .dropdown-toggle.btn-oro:focus,
+.btn-oro:active.focus,
+.btn-oro.active.focus,
+.open > .dropdown-toggle.btn-oro.focus {
+  color: #fff;
+  background-color: #9d872b;
+  border-color: #9d872b;
+}
+.btn-oro:active,
+.btn-oro.active,
+.open > .dropdown-toggle.btn-oro {
+  background-image: none;
+}
+.btn-oro.disabled,
+.btn-oro[disabled],
+fieldset[disabled] .btn-oro,
+.btn-oro.disabled:hover,
+.btn-oro[disabled]:hover,
+fieldset[disabled] .btn-oro:hover,
+.btn-oro.disabled:focus,
+.btn-oro[disabled]:focus,
+fieldset[disabled] .btn-oro:focus,
+.btn-oro.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-oro.focus,
+.btn-oro.disabled:active,
+.btn-oro[disabled]:active,
+fieldset[disabled] .btn-oro:active,
+.btn-oro.disabled.active,
+.btn-oro[disabled].active,
+fieldset[disabled] .btn-oro.active {
+  background-color: #f0d04d;
+  border-color: #f0d04d;
+}
+.btn-oro .badge {
+  color: #9d872b;
+  background-color: #9d872b;
+}
+/* FIN PLAN ORO */
+.carousel-control.left, .carousel-control.right {
+    width: 4%;
+    color:#FF8400;
+    background-image: none;
+
+}
+.sliderPrincipal{
+  margin: 0px;
+  padding: 0px;
+}
+.texto-img{
+    color: #313131;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fondo{
+  padding-top: 0px;
+  background-color: #F28000;
+}
+.fondo-dos{
+  background-color: #FFF;
+}
+.header{
+  background-color: #626262;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.img-centrada{
+  margin: auto;
+}
+.form-control:focus{
+  outline: none !important;
+  border-color:  #F28000;
+  box-shadow: 0 0 10px #F28000;
+}
+.formulario-area:focus{
+  outline: none !important;
+  border-color:  #F28000;
+  box-shadow: 0 0 10px #F28000;
+}
+.formulario-area{
+  max-height: 215px;
+  max-width: 100%;
+  width: 100%;
+  height: 215px;
+  margin: auto;
+}
+.img-responsive{
+  width: 100%;
+  height: 100%;
+}
+.img-responsive-pequenia{
+  width: 50%;
+  height: 50%;
+}
+.container-slide{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.imagenLogo{
+  margin-top: 3px;
+  padding: 3px;
+}
+.form-control-feedback{
+  margin-top:23px;
+  margin-right: 10px;
+}
