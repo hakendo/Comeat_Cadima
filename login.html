@@ -86,13 +86,13 @@
           <div class="panel-body fondo-dos">
             <div class="col-xs-12 col-md-6 panel panel-comeat">
               <div class="panel-header app-font-style-titulo-dos">
-                Iniciar sesi&oacute;n
+                <p>Iniciar sesi&oacute;n</p>
               </div>
               <!-- Inicio de formulario -->
               <form id="formularioLogin" name="formularioLogin">
                 <!-- Email -->
                 <div class="form-group">
-                  <label for="asunto_form">Usuario:</label>
+                  <label for="asunto_form">Correo electr&oacute;nico:</label>
 
                   <input type="email" minlength="6" maxlength="50" class="form-control" id="usuarioCorreo" name="usuarioCorreo" placeholder="Ingrese su email" required/>
 
@@ -114,7 +114,7 @@
             <!-- Inicio panel registro -->
             <div class="col-xs-12 col-md-6 panel panel-comeat">
               <div class="panel-header app-font-style-titulo-dos">
-                &#191;No est&aacute;s registrado?
+                <p>&#191;No est&aacute;s registrado?</p>
               </div>
               <!-- Inicio de formulario -->
               <form id="formularioRegistro" name="formularioRegistro">
@@ -138,32 +138,59 @@
                 </div>
                  <!-- Correo electronico -->
                 <div class="form-group">
-                  <label for="asunto_form">Email:</label>
+                  <label for="asunto_form">Correo electr&oacute;nico:</label>
                   <input type="email" minlength="6" maxlength="50" class="form-control" id="emailRegistro" name="emailRegistro" placeholder="ejemplo@dominio.cl" required/>
                   
                 </div>
                  <!-- Contraseña -->
                 <div class="form-group">
                   <label for="asunto_form">Contrase&ntilde;a:</label>
-                  <input type="email" minlength="6" maxlength="50" class="form-control" id="emailRegistro" name="emailRegistro" placeholder="contrase&ntilde;a" required/>
+                  <input type="password" minlength="4" maxlength="50" class="form-control" id="passRegistroUno" name="passRegistroUno" placeholder="contrase&ntilde;a" required/>
                   
                 </div>
                  <!-- Contraseña 2-->
                 <div class="form-group">
                   <label for="asunto_form">Reingrese su contrase&ntilde;a:</label>
-                  <input type="email" minlength="6" maxlength="50" class="form-control" id="emailRegistro" name="emailRegistro" placeholder="Reingrese su contrase&ntilde;a" required/>
+                  <input type="password" minlength="4" maxlength="50" class="form-control" id="passRegistroDos" name="passRegistroDos" placeholder="Reingrese su contrase&ntilde;a" required/>
                   
                 </div>
 
                 <div class="col-xs-12 col-xs-push-3">
-                  <input type="submit" id="btnContacto" class="btn btn-success" value="Registrarse" ng-click="enviarDatosFormulario(datos)"/>
+                  <input type="button" id="btnRegistro" class="btn btn-success" value="Registrarse" />
                 </div>
               </form>
             </div>
             <!-- FIN PANEL REGISTRO -->
-            <div class="clearfix"></div>
+       
             <!-- INICIO CONTAINER SESION ADMINISTRADOR -->
+            <div class="col-xs-12  panel panel-comeat">
+              <div class="panel-header app-font-style-titulo-dos">
+              <p>&#191;Eres administrador?</p>
+              </div>
+              <div class="panel-body">
+                <!-- Inicio de formulario -->
+              <form id="formularioAdministrador" name="formularioAdministrador">
+                <!-- Correo electronico -->
+                <div class="form-group">
+                  <label for="asunto_form">Correo electr&oacute;nico:</label>
+                  <input type="email" minlength="2" maxlength="30" class="form-control" id="correoAdmin" name="correoAdmin" placeholder="ejemplo@dominio.cl" required/>
+                  
+                </div>
+                
+                <!-- Password -->
+                <div class="form-group">
+                  <label for="asunto_form">Contrase&ntilde;a:</label>
+                  <input type="password" minlength="2" maxlength="30" class="form-control" id="passwordAdmin" name="passwordAdmin" placeholder="contrase&ntilde;a" required/>
+                  
+                </div>
 
+                 <div class="col-xs-12 col-xs-push-5">
+              <input type="button" id="btnAdmin" class="btn btn-warning" value="Iniciar sesi&oacute;n"/>
+                </div>
+              </form>
+
+              </div>
+            </div>
             <!-- FIN CONTAINER SESION ADMINISTRADOR -->
 
             <!-- FIN CONTAINER  -->
@@ -205,7 +232,9 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <!-- JQuery -->
-        <script src="js/jquery/carouselInicio.js"></script>
+        <script src="js/jquery/registrar.js"></script>
+        <script src="js/jquery/loginAdmin.js"></script>
+        <script src="js/jquery/loginUser.js"></script>
       
            
 

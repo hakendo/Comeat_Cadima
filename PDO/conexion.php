@@ -23,6 +23,11 @@
 			$conn = mysql_connect($this->server, $this->user, $this->pass);
 			mysql_select_db($this->db_name, $conn);
 		}
+
+		public function closeConect()
+		{
+			$cerrar =mysql_close();
+		}
 	}
 
 ?>
