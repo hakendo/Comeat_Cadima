@@ -2,6 +2,6 @@
     session_start();
     session_destroy();
     //echo "se salio :(";
-    header("Location: /login");
+    header("Location: ../login.html");
 
 ?>

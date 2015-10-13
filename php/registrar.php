@@ -8,9 +8,7 @@
 
     $objConnect->connect();
    
-
-
-    mysql_select_db("dodoxsg1_comeatapp") or die("No se pudo seleccionar la base de datos 'comeat_db'");
+   
     //Capturar datos de form.
     $nombres = $_POST["nombres"];
     $primerApellido = $_POST["primerApellido"];
